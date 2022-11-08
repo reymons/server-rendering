@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "dev": "NODE_ENV=development node lib/index.js",
+    "prod": "NODE_ENV=production node lib/index.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/register": "^7.18.9",
+    "@babel/runtime": "^7.20.1",
+    "babel-loader": "^9.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "chalk": "4.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.20",
+    "thread-loader": "^3.0.4",
+    "webpack": "^5.74.0"
+  }
+}
